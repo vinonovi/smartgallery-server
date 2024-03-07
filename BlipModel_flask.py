@@ -61,5 +61,5 @@ def get_image():
         return jsonify({"image_uris": image_uris})
     
 if __name__ == "__main__":
-    app.run(host='192.168.1.108', port=5000, debug=True)
+    app.run(host='YOUR_HOST_ADRESS_HERE', port=5000, debug=True)
     print("😊 ", "+"*35, "닫혔따 서버!", "+"*35, "😊")
